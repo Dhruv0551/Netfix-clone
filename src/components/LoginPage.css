@@ -1,0 +1,197 @@
+.main{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    min-height: 900px;
+}
+
+
+.bg{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+
+.bgImg{
+    display: flex;
+    position: relative;
+}
+
+.headLogo{
+    position: absolute;
+    width: 11%;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+.Content{
+    position: absolute;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 30%;
+    height: 80%;
+    margin-top: 6%;
+    margin-left: 35%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.SI{
+    margin-top: 12%;
+    margin-left: 10%;
+
+    color: antiquewhite;
+}
+
+.input{
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid grey;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 71%;
+    border-radius: 4px;
+    height: 7%;
+    font-size: 17px;
+    padding-left: 5%;
+    color: antiquewhite;
+}
+
+.LoginB{
+    margin-left: 10%;
+    width: 72%;
+    margin-top: 4%;
+    height: 6%;
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.LoginB:hover{
+    background-color:rgb(255, 0, 0, 0.8)
+}
+
+.passBox{
+    display: flex;
+    color: white;
+    height: 7%;
+}
+input:focus::placeholder {
+    color: #999;
+    transform: translate(0.25rem, -1rem);
+    transition: all 0.2s ease-out;
+    font-size: 13px;
+  }
+  
+.input-pass{
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid grey;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 71%;
+    border-radius: 4px;
+    font-size: 17px;
+    height: 100%;
+    padding-left: 5%;
+    color: antiquewhite;
+}
+
+
+.eye-toggle {
+
+    margin-top: 8%;
+    cursor: pointer;
+    margin-left: -8%;
+    border-radius: 10px;
+    color: antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+
+.eye-toggle:hover {
+    
+    box-shadow: 0 0 20px rgba(255, 255, 255); /* Whitish circular shadow */
+}
+
+.or{
+    color:silver;
+    margin-left: 45%;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 4%;
+}
+
+.Sign-in-code{
+    background-color: rgb(84, 84, 84, 0.6);
+    border: 1px solid black;
+    margin-left: 9%;
+    height: 6%;
+    width: 73%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 15px;
+    margin-bottom: 4%;
+}
+
+.Sign-in-code:hover{
+    background-color: rgb(84, 84, 84, 0.4);
+}
+
+.forgot-pass{
+    text-decoration: none;
+    color: white;
+    margin-left: 31%;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.forgot-pass:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+.remember-me{
+    display: flex;
+    height: auto;
+    width: auto;
+    color: antiquewhite;
+    margin-left: 8.5%;
+    margin-bottom: 0;
+}
+
+.rem-box{
+    width: 5%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+.newSign{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.newSign:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.lrnMore{
+    color: blue;
+    text-decoration: none;
+    
+}
+
+.lrnMore:hover{
+    text-decoration: underline;
+}

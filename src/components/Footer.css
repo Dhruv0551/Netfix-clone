@@ -1,0 +1,14 @@
+.contact-no{
+    color: darkgrey;
+    text-decoration: none;
+    
+}
+
+.contact-no:hover{
+    text-decoration: underline;
+}
+
+.Footer-link{
+    color: darkgrey;
+    margin-left: 13%;
+}

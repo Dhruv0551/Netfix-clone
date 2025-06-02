@@ -1,0 +1,29 @@
+.navbar .dropdown{
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    z-index: 1;
+    display: none;
+}
+
+.navbar{
+        background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transperant)
+}
+
+
+.dropdown p:hover{
+    text-decoration: underline;
+}
+
+.userProile:hover .dropdown{
+    display: block;
+}
+li{
+    color: white;
+}
+li:hover{
+    color: grey;
+}
