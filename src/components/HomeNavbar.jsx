@@ -3,7 +3,7 @@ import logo from "../assets/netflix-logo-png-2562.png";
 import ProfileIcon from "../assets/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg";
 import "./poppins.css";
 import "./homeNav.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function HomeNavbar() {
   const SearchIcon = (
@@ -78,6 +78,7 @@ function HomeNavbar() {
           <div className="dropdown text-white flex gap-[10px] items-center cursor-pointer absolute">
             <p className=" text-[13px]">
               <NavLink to="/login">Sign out of Netflix</NavLink>
+              {/* <Link to="/login">Account</Link> */}
             </p>
           </div>
         </div>

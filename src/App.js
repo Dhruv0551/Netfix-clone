@@ -34,7 +34,7 @@ function App() {
     </Router>
   );
 // return(
-  //  <LoginPage />
+//    <LoginPage />
   // <FAQ />
   // <HelpCenter />
   // <Player />
